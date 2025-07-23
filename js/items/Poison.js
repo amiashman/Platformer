@@ -14,10 +14,7 @@ class Poison extends Item {
   display() {
     // Draw the poison as a purple circle
     if (!this.collected) {
-      // fill(this.color);
-      // noStroke();
-      // ellipse(this.x, this.y, this.width * 2);
-
+      // Draw the poison vial
       let scale = this.width / 10;
 
       // Vial body (glass bottle)

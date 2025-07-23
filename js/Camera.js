@@ -1,9 +1,9 @@
 class Camera {
   constructor() {
     this.x = 0; // Camera position in world coordinates
-    this.y = 0;
+    this.y = 0; // Camera position in world coordinates
     this.targetX = 0; // Where camera wants to be
-    this.targetY = 0;
+    this.targetY = 0; // Where camera wants to be
     this.smoothing = 0.1; // How smooth the camera movement is (0.1 = smooth, 1 = instant)
   }
 

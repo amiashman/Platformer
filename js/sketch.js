@@ -1,8 +1,8 @@
-let camera;
-let player;
+let camera; // Camera object to handle following the player
+let player; // Player object representing the player character
 const playerWidth = 30; // Player width
 const playerHeight = 40; // Player height
-let currentScreen;
+let currentScreen; // Current screen the player is on
 let worldWidth = 600; // Width of the game world
 let worldHeight = 600; // Height of the game world
 let gameStartTime; // When the game started (in milliseconds)

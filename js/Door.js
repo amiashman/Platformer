@@ -3,8 +3,8 @@ class Door {
   constructor(x, y, targetScreenCode) {
     this.x = x; // X position of the door
     this.y = y; // Y position of the door
-    this.width = playerWidth;
-    this.height = playerHeight;
+    this.width = playerWidth; // Width of the door, matching player width
+    this.height = playerHeight; // Height of the door, matching player height
     this.targetScreenCode = targetScreenCode; // The screen to transition to when the player interacts with the door
     this.color = "#D2B48C"; // Color of the door (tan)
     this.locked = false; // Flag to check if the door is locked
@@ -32,18 +32,6 @@ class Door {
   }
 
   display() {
-    // Draw the door as a rectangle.
-    // fill(this.color);
-    // rect(this.x, this.y, this.width, this.height);
-    // fill("#8B4513"); // Dark brown for doorknob
-    // ellipse(
-    //   // Doorknob
-    //   this.x + this.width * 0.8,
-    //   this.y + this.height * 0.5,
-    //   this.width / 5,
-    //   this.height / (20 / 3)
-    // );
-
     // Scale all measurements relative to size (30x40 base dimensions)
     let scaleX = this.width / 30; // Width scaling
     let scaleY = this.height / 40; // Height scaling

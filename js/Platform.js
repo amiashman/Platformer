@@ -55,8 +55,8 @@ class Platform {
           }
         }
 
-        // Ensure player stays within canvas bounds
-        player.x = constrain(player.x, 0, width - player.width);
+        // // Ensure player stays within canvas bounds
+        // player.x = constrain(player.x, 0, width - player.width);
       }
     }
 

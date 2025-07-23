@@ -1,10 +1,10 @@
 // Player class
 class Player {
   constructor(x, y, playerWidth, playerHeight) {
-    this.x = x;
-    this.y = y;
-    this.width = playerWidth;
-    this.height = playerHeight;
+    this.x = x; // Player x position
+    this.y = y; // Player y position
+    this.width = playerWidth; // Player width
+    this.height = playerHeight; // Player height
     this.color = "#ffffff"; // White
     this.flashingColor = "#808080"; // Gray for invincibility flashing
     this.speed = 5; // Movement speed

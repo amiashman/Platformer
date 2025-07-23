@@ -14,10 +14,6 @@ class Coin extends Item {
   display() {
     // Draw the coin as a yellow circle
     if (!this.collected) {
-      // fill(this.color);
-      // noStroke();
-      // ellipse(this.x, this.y, this.width * 2);
-
       // Scale all measurements relative to size
       let scale = this.width / 10;
       let centerX = this.x + 10 * scale;
