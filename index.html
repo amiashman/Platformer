@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platformer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./js/sketch.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./js/Platform.js"></script>
+    <script src="./js/MovingPlatform.js"></script>
+    <script src="./js/Screen.js"></script>
+    <script src="./js/Door.js"></script>
+    <script src="./js/Item.js"></script>
+    <script src="./js/Items/Coin.js"></script>
+    <script src="./js/Items/Poison.js"></script>
+    <script src="./js/Items/Key.js"></script>
+    <script src="./admin/screencodes.js"></script>
+    <script src="./js/Camera.js"></script>
+    <script>
+      document.addEventListener("keydown", (event) => {
+        // Prevent default behavior for arrow keys
+        if (
+          ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(
+            event.key
+          )
+        ) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="game-container">
+      <!-- p5.js canvas will be inserted here -->
+    </div>
+  </body>
+</html>

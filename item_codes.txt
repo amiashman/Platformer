@@ -1,0 +1,10 @@
+Item Code Layout:
+First digit - collectable or not
+1 = collectable
+2 = not collectable
+Second and third digit - what type of item
+
+Item Codes:
+Key     100
+Coin    200
+Poison  201
