@@ -21,7 +21,7 @@ function setup() {
   gameStartTime = millis(); // p5.js function that returns milliseconds since program start
 
   // Initialize player at bottom of canvas
-  player = new Player(50, height - playerHeight, playerWidth, playerHeight);
+  player = new Player(25, height - playerHeight, playerWidth, playerHeight);
 
   // Generate screens from the SCREEN_CODES array
   for (let i = 0; i < SCREEN_CODES.length; i++) {
