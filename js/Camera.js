@@ -4,7 +4,7 @@ class Camera {
     this.y = 0; // Camera position in world coordinates
     this.targetX = 0; // Where camera wants to be
     this.targetY = 0; // Where camera wants to be
-    this.smoothing = 0.1; // How smooth the camera movement is (0.1 = smooth, 1 = instant)
+    this.smoothing = 1; // How smooth the camera movement is (0.1 = smooth, 1 = instant)
   }
 
   // Set camera to follow a target (like the player)
